@@ -9,7 +9,7 @@ class Hero:
         self.attack_power = 20
 
     def attack(self):
-        random.randint(1,120)
+        return random.randint(1,120)
 
     def take_damage(self, damage):
         self.health = max(0, self.health - damage)
