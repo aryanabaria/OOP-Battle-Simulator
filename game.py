@@ -1,5 +1,6 @@
 from goblin import Goblin
 from hero import Hero
+from boss import Boss
 
 
 ARENA_NAME = "The Hummingbird"
